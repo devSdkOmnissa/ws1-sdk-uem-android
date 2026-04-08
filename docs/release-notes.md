@@ -28,6 +28,28 @@ dependencies {
     implementation("com.airwatch.android:awnetworklibrary:${airwatchVersion}")
 }
 ```
+## Workspace ONE SDK 26.03 for Android
+
+### What's new
+- Support for Android API level 36
+- Multipart log upload support without any explicit configurations from UEM.
+- Root Detection Improvements.
+- Kotlin upgraded to 2.2.21.
+- Android Gradle Plugin (AGP) upgraded to 8.13.
+- Software currency upgrades.
+- Bug fixes and Stability improvements.
+
+### References
+- [Kotlin 2.2.21](https://kotlinlang.org/docs/whatsnew2220.html#kotlin-2-2-21)
+- [AGP 8.13](https://developer.android.com/build/releases/past-releases/agp-8-13-0-release-notes#android-gradle-plugin-8.13.0)
+
+### Compatibility
+- Android 8.0+ (i.e., API 26)
+- Workspace ONE UEM Console 2402+
+- Android Studio with the Gradle Android Build System (AGP) 8.6.0+
+- JDK version 17
+- Workspace ONE Intelligent Hub for Android version 26.02.1
+
 ## Workspace ONE SDK 25.07.4 for Android
 
 ### What's new

@@ -12,27 +12,8 @@ The steps in this tutorial are done with the assumption that you have gone throu
 
 ## Requirements
 
-- Access to AirWatch Console v7.3+
-- Android v2.3+ devices
-
-## Developer Considerations
-
-The app developer must follow a specific regimen about what networking APIs are used in the app in order for traffic to be tunneled via wrapping. Application networking calls must be made using one of the following APIs, based on the proxy type.
-
-### Proxy Type: F5 – Supported Components
-
-- Covers all app level http/https communications
-
-### Proxy Type: MAG – Supported Components
-
-- org/apache/http/impl/client/AbstractHttpClient
-- org/apache/http/impl/client/DefaultHttpClient
-- org/apache/http/impl/client/ HttpClientAndroidLib
-- java/net/URL l android/webkit/WebView
-- android/webkit/WebViewClient
-
-!!!Note
-    The MAG supports only HTTP and HTTPS traffic, so you cannot use classes such as Socket().
+- Workspace ONE UEM Console 2402+
+- Android 8.0+ (i.e., API 26)
 
 ## Tutorial
 
@@ -46,12 +27,12 @@ The app wrapping process consists of 3 main steps:
 
 At this point in the tutorial, we assume you have already gone through the steps of uploading your app and assigning the wrapping profile mentioned in General Setup.
 
-Log into the AirWatch Console and identify if the wrapping profile you assigned to your application is the default profile or a custom profile. If there is no profile assigned, you can choose from one of two ways to configure the policy: group-wide default settings or an ad-hoc custom profile.
+Log into the Omnissa Console and identify if the wrapping profile you assigned to your application is the default profile or a custom profile. If there is no profile assigned, you can choose from one of two ways to configure the policy: group-wide default settings or an ad-hoc custom profile.
 
 ### Using the Default Profile (Recommended)
 
 1. If the profile assigned is the default profile, then the policy settings can be edited by navigating to Apps & Books > All Apps & Books Settings > Apps > Settings And Policies > Security Policies.
-2. Enable the AirWatch App Tunnel option.
+2. Enable the Omnissa App Tunnel option.
 3. Set your App Tunnel Mode to the proxy you plan on using. (If there is no proxy configured, follow the configure proxy settings link on the UI to walk through setting up your proxy)
 4. Click the Save button to persist any changes you have made.
 
@@ -70,7 +51,7 @@ Log into the AirWatch Console and identify if the wrapping profile you assigned 
 
 Once you have set up the appropriate configuration policies. The next step is to actually wrap the application.
 
-1. Navigate to the Apps & Books section back on the AirWatch Console and select the list view.
+1. Navigate to the Apps & Books section back on the Omnissa Console and select the list view.
 2. Select the internal tab in the list view and add an application.
 3. Upload the .ipa file you intend to wrap.
 4. Click the “More” tab and select App Wrapping.

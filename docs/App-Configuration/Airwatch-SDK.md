@@ -12,11 +12,11 @@ The steps in this tutorial are done with the assumption that you have gone throu
 
 ## Requirements
 
-- Android 7.0+ (i.e., API 24)
-- Workspace ONE UEM Console 2302+
-- Android Studio with the Gradle Android Build System (Gradle) 8.2.2+
+- Android 8.0+ (i.e., API 26)
+- Workspace ONE UEM Console 2402+
+- Android Studio with the Gradle Android Build System (Gradle) 8.6.0+
 - JDK version 17
-- Workspace ONE Intelligent Hub for Android version 24.07
+- Workspace ONE Intelligent Hub for Android version 25.01+
 - Android Test Device
 - AirWatch SDK from the Resources Portal
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Airwatch SDK Setup
+title: Omnissa SDK Setup
 hide:
   #- navigation
   - toc
@@ -20,11 +20,11 @@ The SDK is accessible from a Maven repository. For integration documentation, pl
 
 ## Requirements
 
-- Android 7.0+ / Oreo / API Level 24+
-- Android Studio with the Gradle v8.2.2+
+- Android 8.0+ / Oreo / API Level 26+
+- Android Studio with the Gradle v8.6.0+
 - Android Test Device
-- AirWatch SDK from the Resources Portal
-- Workspace ONE Intelligent Hub v23.06+ for Android (Requirement be lower depending on features used)
+- Omnissa SDK from the Resources Portal
+- Workspace ONE Intelligent Hub v25.01+ for Android (Requirement be lower depending on features used)
 
 ## Tutorial
 
@@ -48,18 +48,18 @@ to set the SDK branding icon.
 
 ## Debug Your Application
 
-Before you can begin using the SDK API, you must ensure your application signing key is whitelisted with your AirWatch Admin Console. There are a few ways to do this depending on your deployment scenario.
+Before you can begin using the SDK API, you must ensure your application signing key is whitelisted with your Omnissa Admin Console. There are a few ways to do this depending on your deployment scenario.
 
 ## Internal Deployment or Testing
 
 1. Sign an APK file with the debug keystore of Android Studio. This is located in ~/.android/debug.keystore by default.
-2. Upload the APK file signed with your debug key to the AirWatch Admin Console. (Refer back to the Uploading your application in the [Getting Started](getting-started.md) section.)
-3. Install the application through the AirWatch Agent app. This can be done by pushing the app down using the Agent‘s app catalog. If you set your installation policy to Automatic then the app will install automatically.
+2. Upload the APK file signed with your debug key to the Omnissa Admin Console. (Refer back to the Uploading your application in the [Getting Started](getting-started.md) section.)
+3. Install the application through the Omnissa Agent app. This can be done by pushing the app down using the Agent‘s app catalog. If you set your installation policy to Automatic then the app will install automatically.
 4. Once the app is listed in the Managed Apps section of the Agent, it is ready for local management and can then be sideloaded manually through your IDE (Android Studio).
 
 ## Play Store Deployment
 
-For applications that are deployed publicly through the Play Store, send the public signing key of the application to AirWatch for whitelisting.
+For applications that are deployed publicly through the Play Store, send the public signing key of the application to Omnissa for whitelisting.
 
 !!!Note
     Contact your professional services representative for the process of whitelisting the public signing key.

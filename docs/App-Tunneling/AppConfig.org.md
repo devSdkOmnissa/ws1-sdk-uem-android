@@ -12,11 +12,11 @@ This tutorial will walk developers through how to create a tunnel for a mobile a
 
 # Requirements
 
-- Android 7.0+ (i.e., API 24)
+- Android 8.0+ (i.e., API 26)
 - Workspace ONE UEM Console 2302+
-- Android Studio with the Gradle Android Build System (Gradle) 7.4+
+- Android Studio with the Gradle Android Build System (Gradle) 8.6.0+
 - JDK version 17
-- Workspace ONE Intelligent Hub for Android version 24.07
+- Workspace ONE Intelligent Hub for Android version 25.01+
 - AirWatch Tunnel or a Per App VPN Solution supported by AirWatch
 - Android Tunnel client application
 

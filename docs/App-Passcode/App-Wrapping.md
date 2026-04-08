@@ -12,8 +12,8 @@ The steps in this tutorial are done with the assumption that you have gone throu
 
 ## Requirements
 
-- Access to AirWatch Console v7.3+
-- Android v2.3+ devices
+- Workspace ONE UEM Console 2402+
+- Android 8.0+ (i.e., API 26)
 
 ## Tutorial
 
@@ -21,7 +21,7 @@ The steps in this tutorial are done with the assumption that you have gone throu
 
 At this point in the tutorial, we assume you have already gone through the steps of uploading your app and assigning the wrapping profile mentioned in General Setup.
 
-Log into the AirWatch Console and identify the wrapping profile you assigned to your application is the default profile or a custom profile.
+Log into the Omnissa Console and identify the wrapping profile you assigned to your application is the default profile or a custom profile.
 
 ### If using the default profile
 
@@ -37,7 +37,7 @@ Log into the AirWatch Console and identify the wrapping profile you assigned to 
 
 ## Testing Your Application
 
-1. Enroll your device into AirWatch if you haven’t already done so via the instructions provided in the General Setup section.
+1. Enroll your device into Omnissa if you haven’t already done so via the instructions provided in the General Setup section.
 2. Once enrolled, install the wrapped application via your app catalog.
 3. Launch the wrapped application and wait for the app to finish initialization.
 4. You should be prompted to create a new passcode in the app if you haven’t already done so.

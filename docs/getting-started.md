@@ -8,17 +8,17 @@ hide:
 
 ## Overview
 
-If you haven’t already, please review the [Features Available](../../dev-centre/ws1/core-capabilities) section to help determine the best technical approach (AppConfig.org, AirWatch SDK, App Wrapping) for your use case.
+If you haven’t already, please review the [Features Available](../../dev-centre/ws1/core-capabilities) section to help determine the best technical approach (AppConfig.org, Omnissa SDK, App Wrapping) for your use case.
 
-After you’ve been acquainted with the different options of integration with AirWatch, decide on a technical approach which best meets your use cases.
+After you’ve been acquainted with the different options of integration with Omnissa, decide on a technical approach which best meets your use cases.
 
 ## Setting up your Test Environment
 
-To begin testing, you’ll need to have access to an AirWatch Admin Console with permission to upload the app as well as user credentials to enroll your device into AirWatch.
+To begin testing, you’ll need to have access to an Omnissa Admin Console with permission to upload the app as well as user credentials to enroll your device into Omnissa.
 
-There are several ways to enroll your device, a most common way is to do so via the AirWatch Agent using an email address or a server URL / group id combination:
+There are several ways to enroll your device, a most common way is to do so via the Omnissa Agent using an email address or a server URL / group id combination:
 
-1. Navigate to the Play Store or App Store and install the AirWatch Agent.
+1. Navigate to the Play Store or App Store and install the Omnissa Agent.
 2. Open up the Agent and select the server details option.
 3. Enter the server url – This is usually the same URL as your admin console, but can be different depending on your infrastructure.
 4. Enter in the group id for your organization group
@@ -27,11 +27,11 @@ There are several ways to enroll your device, a most common way is to do so via 
 
 !!! note
 
-    During the debugging and testing process, the application must first be uploaded to your AirWatch Admin Console and pushed down to your test device for your first installation. Every subsequent test can be side-loaded directly from your IDE.
+    During the debugging and testing process, the application must first be uploaded to your Omnissa Admin Console and pushed down to your test device for your first installation. Every subsequent test can be side-loaded directly from your IDE.
 
 ## Uploading your application
 
-Before you can start to test or debug using AppConfig, AirWatch SDK, or App Wrapping, you will need to upload your app to the AirWatch Admin console in order to register your app. These are the steps for how to do so:
+Before you can start to test or debug using AppConfig, Omnissa SDK, or App Wrapping, you will need to upload your app to the Omnissa Admin console in order to register your app. These are the steps for how to do so:
 
 ### Adding a Local File
 
@@ -42,7 +42,7 @@ Before you can start to test or debug using AppConfig, AirWatch SDK, or App Wrap
    For fulls details on the different options in this tab, see our [Mobile Application Management (MAM) Guide](https://docs.omnissa.com/bundle/MobileApplicationManagementVSaaS/page/MAMINTRODUCTION.html)  
 ![App Details](ce3028da-52aa-4289-898c-4b2ea44e90d8.png)
 
-If you are attempting to leverage App Wrapping, there is an additional set of instructions you will need to follow in [App Wrapping](#configuration-for-app-wrapping) section below. Likewise, if you are attempting to use the AirWatch SDK, please read and follow the [SDK integration](#configuration-for-sdk-apps) section below.
+If you are attempting to leverage App Wrapping, there is an additional set of instructions you will need to follow in [App Wrapping](#configuration-for-app-wrapping) section below. Likewise, if you are attempting to use the Omnissa SDK, please read and follow the [SDK integration](#configuration-for-sdk-apps) section below.
 
 If you do not plan on using the SDK or app wrapping, skip directly to the [Save Your App](#save-your-app) section.
 
@@ -57,7 +57,7 @@ This steps in this section only are only required if you are using application w
 
 ### Configuration for SDK Apps
 
-This steps in this section only are only required if you plan on integrating the AirWatch SDK.
+This steps in this section only are only required if you plan on integrating the Omnissa SDK.
 
 1. You must enable SDK during the upload and setup of your mobile app. Go to More > SDK.
 ![Enable SDK](./6c52f9c9-b1fc-49a2-9e09-1034d24159a7.png)
@@ -69,7 +69,7 @@ This steps in this section only are only required if you plan on integrating the
 
 1. Once you have finished the appropriate steps above, click Save & Assign.
 2. Click on Add Assignment and select a smart group containing your test device. (Create a smartgroup if none are created)
-3. Finish up by clicking add and Save & Publish to add your app to the AirWatch portal.
+3. Finish up by clicking add and Save & Publish to add your app to the Omnissa portal.
 
 ### Next Steps
 
