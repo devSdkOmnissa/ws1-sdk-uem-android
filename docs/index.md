@@ -11,7 +11,7 @@ The Workspace ONE SDK (formerly known as AirWatch SDK) code library for Google A
 
 ## Downloads
 
-Omnissa provides this Software Development Kit (the “Software”) to you subject to the following terms and conditions. By downloading, installing, or using the Software, you agree to be bound by the terms of [Omnissa SDK License Agreement](https://static.omnissa.com/sites/default/files/omnissa-sdk-agreement.pdf). If you disagree with any of the terms, then do not use the Software.
+Omnissa provides this Software Development Kit (the “Software”) to you subject to the following terms and conditions. By downloading, installing, or using the Software, you agree to be bound by the terms of [Omnissa SDK License Agreement](https://www.omnissa.com/omnissa-sdk-agreement/). If you disagree with any of the terms, then do not use the Software.
 
 For additional information, please visit the [Omnissa Legal Center](https://www.omnissa.com/legal-center/).
 
@@ -49,6 +49,7 @@ Refer to these guides for instructions on how to integrate specific features.
 - [Workspace ONE Mobile Application Management Technical White Paper](guides/MobileApplicationManagement.pdf)
 - [Workspace ONE SDK Events](guides/WS1SDKEvents.pdf)
 - [Workspace ONE SCEP Configuration](guides/SCEPConfiguration.pdf)
+- [Workspace ONE SDK Diagnostics](guides/WS1SDKDiagnostics.pdf)
 
 ## Other Documentation and Reference
 
