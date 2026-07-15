@@ -28,6 +28,29 @@ dependencies {
     implementation("com.airwatch.android:awnetworklibrary:${airwatchVersion}")
 }
 ```
+## Workspace ONE SDK 26.06 for Android
+
+### What's New
+- Upgraded OpenSSL to 3.5.7 LTS and OpenSSL FIPS to 3.1.2 LTS for enhanced security and compliance.
+- Upgraded Android Gradle Plugin (AGP) to 8.13 and Kotlin to 2.3.21.
+- Added support for Android API 36 and Edge-to-Edge display experiences.
+- Added support for Custom Attributes processing.
+- Introduced the SDK Diagnostic Module to simplify troubleshooting and speed up issue resolution.
+- Improved log upload reliability for SDK Client Mode applications through multipart log uploads.
+- Replaced the legacy QR code scanner with a CameraX-based implementation for improved reliability.
+
+### Known Issues
+- For apps targeting API 37, there is a known app crash issue. See [KB 6001484](https://ikb.omnissa.com/s/article/6001484) for details.
+
+### References
+- [Edge-to-edge Information](https://developer.android.com/develop/ui/views/layout/edge-to-edge)
+
+### Compatibility
+- Android 8.0+ (i.e., API 26)
+- Workspace ONE UEM Console 2402+
+- Android Studio with the Gradle Android Build System (AGP) 8.9.1+
+- JDK version 17
+
 ## Workspace ONE SDK 25.07.4 for Android
 
 ### What's new
