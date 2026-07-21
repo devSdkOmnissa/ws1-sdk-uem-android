@@ -51,10 +51,16 @@ Refer to these guides for instructions on how to integrate specific features.
 - [Workspace ONE SCEP Configuration](guides/SCEPConfiguration.pdf)
 - [Workspace ONE SDK Diagnostics](guides/WS1SDKDiagnostics.pdf)
 
+## API Documentation
+
+| Name                                                     | 
+|----------------------------------------------------------|
+| [Workspace ONE Client SDK](APIs/ws1-client-sdk/index.md) |
+
 ## Other Documentation and Reference
 
-| Name                                                                                                                      | Size |
-|---------------------------------------------------------------------------------------------------------------------------| ---:|
-| Integration Guides                                                                                                        |  |
-| [Workspace ONE for Android Privacy Agreements Module Integration Guide](guides/WorkspaceONE_Android_Privacy.pdf) - latest | 2.6 MB |
-| [Workspace ONE for Android GitHub Maven Repository Integration Note](guides/WorkspaceONE_Android_PublicMavenNote.pdf)     | 141.3 KB |
+| Name                                                                                                                      |
+|---------------------------------------------------------------------------------------------------------------------------|
+| Integration Guides                                                                                                        |
+| [Workspace ONE for Android Privacy Agreements Module Integration Guide](guides/WorkspaceONE_Android_Privacy.pdf) - latest |
+| [Workspace ONE for Android GitHub Maven Repository Integration Note](guides/WorkspaceONE_Android_PublicMavenNote.pdf)     |
