@@ -13,7 +13,7 @@ edit_uri: edit/main/docs/
 
 # Copyright
 copyright: |
-  Copyright &copy; 2005-2024 Omnissa, LLC. All rights reserved.<br/>
+  Copyright &copy; 2005-2026 Omnissa, LLC. All rights reserved.<br/>
 
 # Configuration
 theme:
@@ -103,10 +103,12 @@ extra_css:
   - assets/stylesheets/footer.Cx6ysBfj.css
   - assets/stylesheets/neoteroi-mkdocsoad.css
   - assets/stylesheets/neoteroi-mkdocs.css
+  - assets/stylesheets/api-tables.css
 
 extra_javascript:
   - assets/javascripts/tablesort.min.js #https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - assets/javascripts/tablesort.js
+  - assets/javascripts/api-signature-links.js
 
 # Extensions
 markdown_extensions:
