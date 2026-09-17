@@ -51,6 +51,9 @@ dependencies {
 - Android Studio with the Gradle Android Build System (AGP) 8.9.1+
 - JDK version 17
 
+### Note
+- Certificate retrieval using the SDK Manager API requires Workspace ONE Intelligent Hub for Android 26.08 or later.
+
 ## Workspace ONE SDK 25.07.4 for Android
 
 ### What's new
